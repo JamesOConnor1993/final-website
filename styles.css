@@ -11,18 +11,18 @@ p {
 	margin-bottom: 2.5em;
 	line-height: 2.5em;
 	padding: 0px;
-	margin-top: 20px;
+	margin-top: 5px;
 	margin-right: 0px;
-	margin-left: 0px;
+	margin-left: 10px;
 }
 
 .wrapper {
 	background-color: #A69F8A;
 	width: 950px;
 	border-top-width: 10px;
-	border-right-width: 2px;
+	border-right-width: 4px;
 	border-bottom-width: 10px;
-	border-left-width: 2px;
+	border-left-width: 4px;
 	border-top-style: solid;
 	border-right-style: solid;
 	border-bottom-style: solid;
@@ -81,4 +81,16 @@ p {
 table {
 	margin-right: auto;
 	margin-left: auto;
+}
+
+.main td {
+	vertical-align: top;
+	text-align: left;
+	margin: 10px;
+}
+
+.main img {
+	border: 2px solid #000;
+	margin-right: 10px;
+	margin: 10px;
 }
